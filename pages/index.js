@@ -39,7 +39,6 @@ export async function getStaticProps() {
         id: meetup._id.toString(),
       })),
     },
+    revalidate: 1,
   };
 }
-
-// todo create a getStaticProps fn to load the meetups data and hydrate the fn component
