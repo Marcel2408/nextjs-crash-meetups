@@ -14,7 +14,7 @@ const MeetupDetailPage = (props) => {
           content="See the details of your meetup"
         ></meta>
       </Head>
-      <MeetupDetail meetup={props.meetup} />;
+      {props.meetup && <MeetupDetail meetup={props.meetup} />};
     </>
   );
 };
