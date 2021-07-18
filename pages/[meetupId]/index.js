@@ -9,7 +9,10 @@ const MeetupDetailPage = (props) => {
     <>
       <Head>
         <title>Meetup Details</title>
-        <meta name="description" content={props.meetup.description}></meta>
+        <meta
+          name="description"
+          content="See the details of your meetup"
+        ></meta>
       </Head>
       <MeetupDetail meetup={props.meetup} />;
     </>
