@@ -8,7 +8,7 @@ const MeetupDetailPage = (props) => {
   return (
     <>
       <Head>
-        <title>{props.meetup.title}</title>
+        <title>Meetup Details</title>
         <meta name="description" content={props.meetup.description}></meta>
       </Head>
       <MeetupDetail meetup={props.meetup} />;
